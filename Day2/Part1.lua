@@ -26,7 +26,6 @@ function countSubstring(s1, s2)
 end
 
 local lines = {}
--- read the lines in table 'lines'
 for line in io.lines("/home/dpain/Documents/advent-of-code-2018/testValues.txt") do
   table.insert(lines, line)
 end
