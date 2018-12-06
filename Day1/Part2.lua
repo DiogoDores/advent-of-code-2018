@@ -10,8 +10,6 @@ while true do
     table.insert(values, line)
 end
 
-
-
 while run do
     for i=1,#values do
       if seen[count] then
